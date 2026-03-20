@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Solution {
+    public static void main(String[]args)
+    { int p,q;
+     Scanner as=new Scanner(System.in);
+     p=as.nextInt();
+     q=as.nextInt();
+     if(p==q)
+     {
+         System.out.println("Equal");
+     }
+     else
+     {
+         System.out.println("Not Equal");
+       }
+     }
+}
