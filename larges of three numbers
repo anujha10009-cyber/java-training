@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Solution {
+    public static void main(String[]args)
+    { int p,q,r;
+    Scanner as=new Scanner(System.in);
+    p=as.nextInt();
+    q=as.nextInt();
+    r=as.nextInt();
+    int largest;
+    if(p>=q && p>=r)
+    {
+        largest=p;
+    }
+    else if(q>=p && q>=r)
+    {
+        largest=q;
+    }
+    else
+    {
+        largest=r;
+    }
+    System.out.println(largest);
+   }
+}
